@@ -1,4 +1,8 @@
-from marshmellow import Schema, fields
+#marshmallow is an ORM/ODM/framework-agnostic library 
+# for serializing/deserializing complex data types, 
+# such as objects, to and from native Python data types
+
+from marshmallow import Schema, fields
 
 class GithubRepoSchema(Schema):
     id = fields.int(required=True)
